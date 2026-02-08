@@ -26,10 +26,11 @@ ipcMain.handle("run-adb", () => {
 });
 
 ipcMain.handle("login-check", (e, user, pass) => {
-  if (user === "admin" && pass === "1234") {
+  if (user === "admin" && pass === "sungdotoolpro") {
     return { ok: true };
   }
   return { ok: false };
 });
+
 
 app.whenReady().then(createWindow);
