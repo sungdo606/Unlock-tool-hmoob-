@@ -8,7 +8,7 @@ const LICENSE_DATA = {
   username: "admin",
   plan: "6 MONTH",            // 3 MONTH | 6 MONTH | 12 MONTH
   start_date: "2026-01-01",   // ngày kích hoạt
-  expire_date: "2026-07-01",  // ngày hết hạn
+  expire_date: "2026-07-12",  // ngày hết hạn
   activated: true             // true | false
 };
 /* ==================================================== */
